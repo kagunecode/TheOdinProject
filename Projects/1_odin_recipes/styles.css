@@ -1,0 +1,32 @@
+* {
+    font-family: 'Courier New', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h1.title{
+    color: black;
+    text-align: center;
+}
+
+#home-button,
+#footer-text,
+#footer-text a {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#header-img {
+    height: auto;
+    width: 1000px;
+}
