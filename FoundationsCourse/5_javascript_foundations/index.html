@@ -7,12 +7,23 @@
 
     <body>
         <script>
-            let admin;
-            let name = "Jhon";
+            let user = window.prompt("Enter the username")
 
-            admin = name;
-
-            alert(admin)
+            if (user === "Admin") {
+                let password = window.prompt("Enter the password")
+                if (password === "TheMaster") {
+                    alert("Welcome!")
+                } else if (password === '' || password === null) {
+                    alert("Canceled")
+                } else {
+                    alert("Wrong password")
+                }
+            } else if (user === '' || user === null) {
+                alert("Canceled")
+            } else {
+                alert("I don't know you")
+            }
+            
         </script>
     </body>
 </html>
