@@ -21,11 +21,12 @@ function rpsGame(playerChoice, computerChoice) {
 }
 
 function game(userName) {
+    window.alert(`Welcome ${userName}! You will play 5 times against the CPU. Good luck!`)
     let userScore = 0;
     let cpuScore = 0;
     let draw = 0;
     for (let i=0; i < 5; i++) {
-    let pChoice = window.prompt(`${userName} please enter your choice!`)
+    let pChoice = window.prompt(`Round ${i+1}: ${userName} please enter your choice!`)
     result = rpsGame(pChoice, getComputerChoice())
     if (result.includes("won")) {
         userScore++;
