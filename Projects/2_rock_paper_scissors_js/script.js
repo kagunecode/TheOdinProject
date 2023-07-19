@@ -20,4 +20,23 @@ function rpsGame(playerChoice, computerChoice) {
     }    
 }
 
-console.log(rpsGame(window.prompt("Enter your choice"), getComputerChoice()))
+function game(userName) {
+    let userScore = 0;
+    let cpuScore = 0;
+    let draw = 0;
+    for (let i=0; i < 5; i++) {
+    let pChoice = window.prompt(`${userName} please enter your choice!`)
+    result = rpsGame(pChoice, getComputerChoice())
+    if (result.includes("won")) {
+        userScore++;
+    } else if (result.includes("lose")) {
+        cpuScore++;
+    } else {
+        draw++;
+    }
+    console.log(result)
+    console.log(`User: ${userScore}   ||  CPU: ${cpuScore}    ||    Draws: ${draw}`)
+    }
+}
+
+game(window.prompt("Enter your name!"))
