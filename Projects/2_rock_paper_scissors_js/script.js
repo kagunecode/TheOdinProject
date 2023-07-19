@@ -26,8 +26,8 @@ function game(userName) {
     let cpuScore = 0;
     let draw = 0;
     for (let i=0; i < 5; i++) {
-    let pChoice = window.prompt(`Round ${i+1}: ${userName} please enter your choice!`)
-    result = rpsGame(pChoice, getComputerChoice())
+    let playerChoice = window.prompt(`Round ${i+1}: ${userName} please enter your choice!`)
+    result = rpsGame(playerChoice, getComputerChoice())
     if (result.includes("won")) {
         userScore++;
     } else if (result.includes("lose")) {
