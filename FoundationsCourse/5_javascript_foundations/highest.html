@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function maxNum(a) {
+            let nums = a.split(" ");
+            let max = nums[0];
+            for(let i=0; i < nums.length; i++) {
+                if (+nums[i] > +max) {
+                    max = nums[i]
+                }
+            }
+            return max;
+        }
+
+        result = window.confirm(maxNum(window.prompt("Enter Numbers")))
+    </script>
+    
+</body>
+</html>
