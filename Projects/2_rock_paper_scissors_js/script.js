@@ -4,7 +4,7 @@ function getComputerChoice() {
     return choices[option]
 }
 
-function rpsGame(playerChoice, computerChoice) {
+function getResult(playerChoice, computerChoice) {
     playerChoice = playerChoice.charAt(0).toUpperCase() + playerChoice.slice(1).toLowerCase()
     console.log(`The CPU played ${computerChoice}`)
     if (playerChoice !== "Rock" && playerChoice !== "Paper" && playerChoice !== "Scissors") {
@@ -20,14 +20,14 @@ function rpsGame(playerChoice, computerChoice) {
     }    
 }
 
-function game(userName) {
+function playGame(userName) {
     window.alert(`Welcome ${userName}! You will play 5 times against the CPU. Good luck!`)
     let userScore = 0;
     let cpuScore = 0;
     let draw = 0;
     for (let i=0; i < 5; i++) {
     let playerChoice = window.prompt(`Round ${i+1}: ${userName} please enter your choice!`)
-    result = rpsGame(playerChoice, getComputerChoice())
+    result = getResult(playerChoice, getComputerChoice())
     if (result.includes("won")) {
         userScore++;
     } else if (result.includes("lose")) {
@@ -40,4 +40,4 @@ function game(userName) {
     }
 }
 
-game(window.prompt("Enter your name!"))
+playGame(window.prompt("Enter your name!"))
