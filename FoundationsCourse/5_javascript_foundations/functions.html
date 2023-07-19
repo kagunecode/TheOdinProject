@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let add7 = (a) => a + 7
+        window.confirm(add7(5))
+
+        let multiply = (a, b) => a * b
+        window.confirm(multiply(5, 5))
+
+        let capitalize = function(a) {
+            return a.charAt(0).toUpperCase() + (a.slice(1)).toLowerCase()
+        };
+        
+        window.confirm(capitalize(window.prompt("Enter a string")))
+
+        let lastLetter = (a) => a.slice(-1)
+
+        window.confirm(lastLetter(window.prompt("Enter a string")))
+    </script>
+    
+</body>
+</html>
