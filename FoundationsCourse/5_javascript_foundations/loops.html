@@ -7,19 +7,41 @@
 </head>
 <body>
     <script>
-        function countdown(num) {
-            for (let i=num; i >= 0; i--) {
-                if (i==num){
-                    console.log(`Countdown ${i} \n`)
-                } else if (i==0) {
-                    console.log('Blastoff!')
-                } else {
-                    console.log(`${i} \n`)
-                }               
-            }
-        }
+        function countdown(select, num) {
 
-        countdown(window.prompt("Enter the countdown start!"))
+            switch(select) {
+                case "for":
+                    console.log("I'm a for case!")
+                    for (let i=num; i >= 0; i--) {
+                    if (i==num){
+                        console.log(`Countdown ${i} \n`);
+                    } else if (i==0) {
+                        console.log('Blastoff!');
+                    } else {
+                        console.log(`${i} \n`);
+                    }
+            } break;
+
+                case "while":
+                    console.log("I'm a while case!")
+                    i = num;
+                    while (i >= 0) {
+                    if (i==num){
+                        console.log(`Countdown ${i} \n`);
+                    } else if (i==0) {
+                        console.log('Blastoff!');
+                    } else {
+                        console.log(`${i} \n`);
+                    } 
+                    i--;                  
+            } break; 
+
+            default:
+                window.alert("Not a valid option! Use 'for' or 'while' only")
+        }
+    }
+
+        countdown(window.prompt("Select the loop to run 'for' or 'while'"), window.prompt("Enter the countdown start number."))
     </script>
     
 </body>
