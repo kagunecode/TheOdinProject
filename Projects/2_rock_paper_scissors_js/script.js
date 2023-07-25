@@ -39,5 +39,3 @@ function playGame(userName) {
     console.log(`User: ${userScore}   ||  CPU: ${cpuScore}    ||    Draws: ${draw}`)
     }
 }
-
-playGame(window.prompt("Enter your name!"))
