@@ -46,15 +46,23 @@ ul {
     margin-top: 20px;
 }
 
-button {
+#button-choice {
     margin: 15px 30px;
     padding: 15px 60px;
-    background-color: #632A50;
-    border: none;
+    background-color: transparent;
+    border: solid;
+    border-color: #632A50;
     border-radius: 5px;
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+#button-choice:hover {
+    background-color: #632A50;
+    color: white;
+    box-shadow: 0 0 20px rgba(99, 42, 80, 0.5);
 }
 
 .score-result {

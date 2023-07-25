@@ -21,26 +21,6 @@ function getResult(playerChoice, computerChoice) {
     }    
 }
 
-/*function playGame(userName) {
-    window.alert(`Welcome ${userName}! You will play against the CPU. Good luck!`)
-    let userScore = 0;
-    let cpuScore = 0;
-    let draw = 0;
-    for (let i=0; i < 5; i++) {
-    let playerChoice = window.prompt(`Round ${i+1}: ${userName} please enter your choice!`)
-    result = getResult(playerChoice, getComputerChoice())
-    if (result.includes("won")) {
-        userScore++;
-    } else if (result.includes("lose")) {
-        cpuScore++;
-    } else {
-        draw++;
-    }
-    console.log(result)
-    console.log(`User: ${userScore}   ||  CPU: ${cpuScore}    ||    Draws: ${draw}`)
-    }
-} */
-
 function scoreCounter(result, userScore, cpuScore, drawScore, userDiv, cpuDiv, drawDiv) {`button[data-value]`
     if(result.includes('won')) {
         userScore += 1;
