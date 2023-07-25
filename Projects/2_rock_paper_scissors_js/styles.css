@@ -1,7 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
     margin: 0;
+    background-color: #E2D0BE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
 }
 .navbar {
     display: flex;
@@ -43,6 +47,54 @@ ul {
 }
 
 button {
-    margin: 10px 20px;
-    padding: 10px 30px;
+    margin: 15px 30px;
+    padding: 15px 60px;
+    background-color: #632A50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.score-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    margin-top: 30px;
+    background-color: #7D82B8;
+    color: white;
+}
+
+.scores-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-item {
+    display: flex;
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
 }

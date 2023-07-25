@@ -19,9 +19,10 @@
             <li>Contact</li>
         </ul>
     </div>
+    <div class="container">
     <div class="header">
         <h1 class="header-title">Rock, Paper, Scissors!</h1> 
-        <p class="header-description">Welcome to the game. Remember the following rules:</p>
+        <p class="header-description">Welcome to the game. The title will update based on the CPU choice. Remember the following rules:</p>
         <ul>
             <li>Rock beats scissors.</li>
             <li>Scissors beats paper.</li>
@@ -29,9 +30,25 @@
         </ul> 
     </div> 
     <div class="button-container">
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
+        <button id="button-choice" data-value='Rock'>Rock</button>
+        <button id="button-choice" data-value='Paper'>Paper</button>
+        <button id="button-choice" data-value='Scissors'>Scissors</button>
     </div>
+    <div class="score-result">
+        <div id="result"></div>
+    </div>
+    </div>
+        <div class="scores">
+            <ul class="scores-list">
+                <li class="score-item">User</li>
+                <li class="score-item">CPU</li>
+                <li class="score-item">Draws</li>
+            </ul>
+            <ul class="scores-list score-number">
+                <li class="score-item" id="user">0</li>
+                <li class="score-item" id="cpu">0</li>
+                <li class="score-item" id="draws">0</li>
+            </ul>
+        </div>
 </body>
 </html>
