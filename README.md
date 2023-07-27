@@ -7,9 +7,12 @@ I will keep this updated as I advance through the course, for personal satisfact
 
 Check out some of my projects! This are all related to The Odin Project, I'll probably come back to them later.
 
-Landing Page: [GitHub Repo](https://github.com/kagunecode/TOP-landing-page) | [Live Preview](https://kagunecode.github.io/TOP-landing-page/)
-Rock, Paper, Scissors: [GitHub Repo](https://github.com/kagunecode/rpsgame) | [Live Preview](https://kagunecode.github.io/rpsgame/)
-Etch-a-Sketch: [GitHub Repo](https://github.com/kagunecode/etch-a-sketch) | [Live Preview](https://kagunecode.github.io/etch-a-sketch/)
+Landing Page: [GitHub Repo](https://github.com/kagunecode/TOP-landing-page) | [Live Preview](https://kagunecode.github.io/TOP-landing-page/)  
+
+Rock, Paper, Scissors: [GitHub Repo](https://github.com/kagunecode/rpsgame) | [Live Preview](https://kagunecode.github.io/rpsgame/)  
+
+Etch-a-Sketch: [GitHub Repo](https://github.com/kagunecode/etch-a-sketch) | [Live Preview](https://kagunecode.github.io/etch-a-sketch/)  
+
 
 # PROGRESS
 
