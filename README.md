@@ -3,7 +3,15 @@ All my Odin Project stuff.
 
 I will keep this updated as I advance through the course, for personal satisfaction and also in case anyone is interested on seeing real progress from someone that is going to take the full Odin Project course.
 
--------------------PROGRESS---------------------
+# PROJECTS
+
+Check out some of my projects! This are all related to The Odin Project, I'll probably come back to them later.
+
+Landing Page: [GitHub Repo](https://github.com/kagunecode/TOP-landing-page) | [Live Preview](https://kagunecode.github.io/TOP-landing-page/)
+Rock, Paper, Scissors: [GitHub Repo](https://github.com/kagunecode/rpsgame) | [Live Preview](https://kagunecode.github.io/rpsgame/)
+Etch-a-Sketch: [GitHub Repo](https://github.com/kagunecode/etch-a-sketch) | [Live Preview](https://kagunecode.github.io/etch-a-sketch/)
+
+# PROGRESS
 
 DAY 1: Completed 4 modules of the Foundations Course. I can now understand how a .html file should look like, as well as how to add a title, a header, some text, images and even links. I also learned how to keep my website folder clean and organized for me and other people to understand. I learned that html tags also have "arguments" that must be included in certain cases for different reasons. Of course, I also checked most of the pages that The Odin Project recommeds to learn even more things. 
 
@@ -22,3 +30,5 @@ DAY 4 - 5: I forgot to comment on my progress on day 4. Basically I finished the
 DAY 6: I went through most of the Javascript sections. I can now do full conditional statemets with the different types of operators as well. I didn't update this repo with much code since all the practice was made on several websites, but I hope tomorrow I will add some cool code with a full project! Also, I read a bit on my own and learned some cool tricks on HTML and CSS.
 
 DAY 7 TO 10: I've been completing modules, however, most of those had independent exercises which is the reason why I didn't update this repo. Anyways, at this point I've completed every JS exercise succesfully, I'm still trying to understand some stuff but luckily for me I've had some experience with programming before and that really helped me to get through this quite easily. Still, I've been practicing and I will keep doing that. As of now I'm learning how to manipulate the DOM with JS, you know, event listeners and such, which has me really excited to know what comes next!
+
+DAY 8 TO 14: I finished the Rock, Paper, Scissors and Etch-a-Sketch projects! The later was quite difficult, but I made it! You can actually see a live preview on this same repo (of every project, I'll update them), since I created a repo for each project at the end. I've learned a lot of things of course, but I'm getting used to that JS-CSS-HTML manipulation since it can be a bit confusing at times. I'm sure the projects I've done so far are not perfect, so I'll fix anything later, but I'm super happy I made it to this point! I think I'm quite close from finishing the basic course, can't wait to see what's ahead!
