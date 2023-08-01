@@ -13,6 +13,8 @@ Rock, Paper, Scissors: [GitHub Repo](https://github.com/kagunecode/rpsgame) | [L
 
 Etch-a-Sketch: [GitHub Repo](https://github.com/kagunecode/etch-a-sketch) | [Live Preview](https://kagunecode.github.io/etch-a-sketch/)  
 
+Calculator: [GitHub Repo](https://github.com/kagunecode/calculator) | [Live Preview](https://kagunecode.github.io/calculator/)
+
 
 # PROGRESS
 
@@ -35,3 +37,5 @@ DAY 6: I went through most of the Javascript sections. I can now do full conditi
 DAY 7 TO 10: I've been completing modules, however, most of those had independent exercises which is the reason why I didn't update this repo. Anyways, at this point I've completed every JS exercise succesfully, I'm still trying to understand some stuff but luckily for me I've had some experience with programming before and that really helped me to get through this quite easily. Still, I've been practicing and I will keep doing that. As of now I'm learning how to manipulate the DOM with JS, you know, event listeners and such, which has me really excited to know what comes next!
 
 DAY 8 TO 14: I finished the Rock, Paper, Scissors and Etch-a-Sketch projects! The later was quite difficult, but I made it! You can actually see a live preview on this same repo (of every project, I'll update them), since I created a repo for each project at the end. I've learned a lot of things of course, but I'm getting used to that JS-CSS-HTML manipulation since it can be a bit confusing at times. I'm sure the projects I've done so far are not perfect, so I'll fix anything later, but I'm super happy I made it to this point! I think I'm quite close from finishing the basic course, can't wait to see what's ahead!
+
+DAY 15 TO 19: Got the Calculator project right (you can see it on the PROJECTS section!). It was a cool project since it required some logic, and I also made it work with a infinite ammount of numbers as well which is more than the project asked for. However, I still need to fix some things that just don't feel right, but as of now I feel like I don't have the correct knowledge to achieve this. The logic is also quite long so when I learn new stuff I'll try to come back to this projects to improve them. I finally finished the basic course and I'm about to choose my path to learn more things!
