@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :root {
+            --dark-color: #635bff;
+            --light-color: #80e9ff;
+        }
+
+        svg {
+            cursor: pointer;
+        }
+
+        #darkGroup {
+            fill: var(--dark-color);
+        }
+
+        #lightGroup {
+            fill: var(--light-color);
+        }
+
+        #dark1,
+        #light1,
+        #dark2 {
+            transition: all 0.5s ease;
+        }
+        #dark2 {
+            transform: translateX(-100%);
+        }
+        svg:hover #light1 {
+            transform: translateX(20%);
+        }
+        svg:hover #dark1 {
+            transform: translateX(40%);
+            opacity: 0;
+        }
+        svg:hover #dark2 {
+            transform: translateX(0%);
+        }
+
+    </style>
+</head>
+<body>
+    <svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="triangles">
+        <g id="lightGroup">
+        <path id="light1" opacity="0.7" d="M40 48.768C41.3333 49.5378 41.3333 51.4623 40 52.2321L13.75 67.3875C12.4167 68.1573 10.75 67.195 10.75 65.6554L10.75 35.3445C10.75 33.8049 12.4167 32.8427 13.75 33.6125L40 48.768Z"/>
+        </g>
+        <g id="darkGroup">
+        <path id="dark1" opacity="0.7" d="M54 48.768C55.3333 49.5378 55.3333 51.4623 54 52.2321L27.75 67.3875C26.4167 68.1573 24.75 67.195 24.75 65.6554L24.75 35.3445C24.75 33.8049 26.4167 32.8427 27.75 33.6125L54 48.768Z"/>
+        <path id="dark2" opacity="0.7" d="M40 48.768C41.3333 49.5378 41.3333 51.4623 40 52.2321L13.75 67.3875C12.4167 68.1573 10.75 67.195 10.75 65.6554L10.75 35.3445C10.75 33.8049 12.4167 32.8427 13.75 33.6125L40 48.768Z"/>
+        </g>
+        </g>
+        </svg>  
+        
+        <script>
+        
+        const svg = document.getElementById('triangles');
+
+        svg.onclick = (e) => {
+            const colors = ['red', 'blue', 'green', 'orange', 'pink', 'purple'];
+            const rando = () => colors[Math.floor(Math.random()* colors.length)];
+            document.documentElement.style.cssText = `--dark-color: ${rando()}; --light-color: ${rando()}`;
+        }
+        </script>
+</body>
+</html>
