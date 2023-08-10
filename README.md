@@ -15,6 +15,8 @@ Etch-a-Sketch: [GitHub Repo](https://github.com/kagunecode/etch-a-sketch) | [Liv
 
 Calculator: [GitHub Repo](https://github.com/kagunecode/calculator) | [Live Preview](https://kagunecode.github.io/calculator/)
 
+Sign-up Page: [GitHub Repo](https://github.com/kagunecode/signup-form) | [Live Preview](https://kagunecode.github.io/signup-form/)
+
 
 # PROGRESS
 
@@ -39,3 +41,5 @@ DAY 7 TO 10: I've been completing modules, however, most of those had independen
 DAY 8 TO 14: I finished the Rock, Paper, Scissors and Etch-a-Sketch projects! The later was quite difficult, but I made it! You can actually see a live preview on this same repo (of every project, I'll update them), since I created a repo for each project at the end. I've learned a lot of things of course, but I'm getting used to that JS-CSS-HTML manipulation since it can be a bit confusing at times. I'm sure the projects I've done so far are not perfect, so I'll fix anything later, but I'm super happy I made it to this point! I think I'm quite close from finishing the basic course, can't wait to see what's ahead!
 
 DAY 15 TO 19: Got the Calculator project right (you can see it on the PROJECTS section!). It was a cool project since it required some logic, and I also made it work with a infinite ammount of numbers as well which is more than the project asked for. However, I still need to fix some things that just don't feel right, but as of now I feel like I don't have the correct knowledge to achieve this. The logic is also quite long so when I learn new stuff I'll try to come back to this projects to improve them. I finally finished the basic course and I'm about to choose my path to learn more things!
+
+DAY 20 TO 27: Finished the Signup form project, it was super fun and quite challenging really, but I'm super proud of the result since I had to Google a lot to achieve some of the things I wanted to implement. I also added dark mode support, which is quite exciting for me as I struggle a lot with white pages since my eyes are quite sensitive to light, so I might implement this on other sites. I'm also starting to work on my personal portfolio, as I've read that with the knowledge I have now I can make a great website and then I can update it later! The link to the project is on the links section of course.
