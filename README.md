@@ -19,6 +19,8 @@ Sign-up Page: [GitHub Repo](https://github.com/kagunecode/signup-form) | [Live P
 
 Admin Panel: [GitHub Repo](https://github.com/kagunecode/admin-page) | [Live Preview](https://kagunecode.github.io/admin-page/)
 
+Book Record (no DB): [GitHub Repo](https://github.com/kagunecode/Book_Record) | [Live Preview](https://kagunecode.github.io/Book_Record/)
+
 
 # PROGRESS
 
@@ -47,3 +49,5 @@ DAY 15 TO 19: Got the Calculator project right (you can see it on the PROJECTS s
 DAY 20 TO 27: Finished the Sign-up form project, it was super fun and quite challenging really, but I'm super proud of the result since I had to Google a lot to achieve some of the things I wanted to implement. I also added dark mode support, which is quite exciting for me as I struggle a lot with white pages since my eyes are quite sensitive to light, so I might implement this on other sites. I'm also starting to work on my personal portfolio, as I've read that with the knowledge I have now I can make a great website and then I can update it later! The link to the project is on the links section of course.
 
 DAY 27 TO 37: Yes, it's been 10 days since the last update, I was busy with another project so I had less time to advance on the course. However, I finished the admin page which is the last project of the intermediate HTML and CSS course! I added the link to the projects section as always. I will now advance to the next section since I have time to keep going right now!
+
+DAY 38 TO 44: I've been doing a lot of JS exercises to improve my coding skills. As of now, I've also finished the book record project for the second JS course, so go ahead and check it out! So far I've been learning and remembering a lot of things, and I'm becoming more and more familiar with the OOP way.
