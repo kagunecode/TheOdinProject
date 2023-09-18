@@ -1,12 +1,23 @@
-function book(title, author, pages, status) {
-    this.title = title
-    this.author = author
-    this.pages = pages
-    this.status = status
-    this.getReport = function () {
-        return `${title} by ${author}, ${pages} pages, ${status}`
+const musicLibrary = (name, artist, album, genre) => {
+    const getName = () => name
+    const getArtist = () => artist
+    const getAlbum = () => album
+    const getGenre = () => genre
+
+    const getQueue = song => {
+        console.log(`Now playing ${name} by ${artist}`)
+        console.log(`Next up ${song.getName()} by ${song.getArtist()}`)
     }
+
+    const somethingRandom = () => {
+        console.log(getAlbum())
+    }
+    return { getQueue, getName, getArtist, somethingRandom }
 }
 
-const theHobbit = new book('The Hobbit', 'J.R.R Tolkien', 295, 'not read yet')
-console.log(theHobbit.valueOf())
+
+
+let currentSong = musicLibrary('Lunar', 'Virtual Riot', 'The Classics EP', 'Dubstep')
+let nextSong = musicLibrary('Always', 'Kagune', 'Always EP', 'Dubstep')
+currentSong.getQueue(nextSong)
+currentSong.somethingRandom()
