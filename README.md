@@ -21,6 +21,8 @@ Admin Panel: [GitHub Repo](https://github.com/kagunecode/admin-page) | [Live Pre
 
 Book Record (no DB): [GitHub Repo](https://github.com/kagunecode/Book_Record) | [Live Preview](https://kagunecode.github.io/Book_Record/)
 
+TicTacToe (in progress): [GitHub Repo](https://github.com/kagunecode/tictactoe) | [Live Preview](https://kagunecode.github.io/tictactoe/)
+
 
 # PROGRESS
 
@@ -51,3 +53,5 @@ DAY 20 TO 27: Finished the Sign-up form project, it was super fun and quite chal
 DAY 27 TO 37: Yes, it's been 10 days since the last update, I was busy with another project so I had less time to advance on the course. However, I finished the admin page which is the last project of the intermediate HTML and CSS course! I added the link to the projects section as always. I will now advance to the next section since I have time to keep going right now!
 
 DAY 38 TO 44: I've been doing a lot of JS exercises to improve my coding skills. As of now, I've also finished the book record project for the second JS course, so go ahead and check it out! So far I've been learning and remembering a lot of things, and I'm becoming more and more familiar with the OOP way.
+
+DAY 44 TO 52: I'm close to graduating! Because of that, I've been busy working on some stuff for my thesis presentation, however, I've been trying to keep up the pace of TOD course. I just finished the Tictactoe project, at least the main project. I'm working on the AI that can play against the user, and also a reset button, but for now the game is functional with a web UI.
