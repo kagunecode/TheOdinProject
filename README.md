@@ -1,17 +1,20 @@
 # TheOdinProject
+
 All my Odin Project stuff.
 
-I will keep this updated as I advance through the course, for personal satisfaction and also in case anyone is interested on seeing real progress from someone that is going to take the full Odin Project course.
+As of now, I've paused all my Odin Project progress since I've been learning on my own following a different path. I'll update this repo with new projects when they're done, however, the complexity of my current projects is significantly higher than the ones proposed on TOD. As of now, I'm focusing on React development and interactive experiences with Three.js and more complex libraries.
+
+Still, I'd just like to say that I do recommend anyone looking to start on web development to give The Odin Project a try. It contains a lot of useful information and the projects are also a great way to start your webdev journey. The thing that made me drop TOD was the slow progress. I'm a person that learns by doing and, even though the projects are useful, I think they are either too easy or too hard. As of now I feel confident I can do any project on TOD, but by following TOD strictly it would've taken a lot more time to get to where I am.
 
 # PROJECTS
 
 Check out some of my projects! This are all related to The Odin Project, I'll probably come back to them later.
 
-Landing Page: [GitHub Repo](https://github.com/kagunecode/TOP-landing-page) | [Live Preview](https://kagunecode.github.io/TOP-landing-page/)  
+Landing Page: [GitHub Repo](https://github.com/kagunecode/TOP-landing-page) | [Live Preview](https://kagunecode.github.io/TOP-landing-page/)
 
-Rock, Paper, Scissors: [GitHub Repo](https://github.com/kagunecode/rpsgame) | [Live Preview](https://kagunecode.github.io/rpsgame/)  
+Rock, Paper, Scissors: [GitHub Repo](https://github.com/kagunecode/rpsgame) | [Live Preview](https://kagunecode.github.io/rpsgame/)
 
-Etch-a-Sketch: [GitHub Repo](https://github.com/kagunecode/etch-a-sketch) | [Live Preview](https://kagunecode.github.io/etch-a-sketch/)  
+Etch-a-Sketch: [GitHub Repo](https://github.com/kagunecode/etch-a-sketch) | [Live Preview](https://kagunecode.github.io/etch-a-sketch/)
 
 Calculator: [GitHub Repo](https://github.com/kagunecode/calculator) | [Live Preview](https://kagunecode.github.io/calculator/)
 
@@ -23,10 +26,9 @@ Book Record (no DB): [GitHub Repo](https://github.com/kagunecode/Book_Record) | 
 
 TicTacToe (in progress): [GitHub Repo](https://github.com/kagunecode/tictactoe) | [Live Preview](https://kagunecode.github.io/tictactoe/)
 
-
 # PROGRESS
 
-DAY 1: Completed 4 modules of the Foundations Course. I can now understand how a .html file should look like, as well as how to add a title, a header, some text, images and even links. I also learned how to keep my website folder clean and organized for me and other people to understand. I learned that html tags also have "arguments" that must be included in certain cases for different reasons. Of course, I also checked most of the pages that The Odin Project recommends to learn even more things. 
+DAY 1: Completed 4 modules of the Foundations Course. I can now understand how a .html file should look like, as well as how to add a title, a header, some text, images and even links. I also learned how to keep my website folder clean and organized for me and other people to understand. I learned that html tags also have "arguments" that must be included in certain cases for different reasons. Of course, I also checked most of the pages that The Odin Project recommends to learn even more things.
 
 On the other side, I learned how to use the terminal to create, delete and modify files and directories, as well as some pretty useful commands that I'll keep using on further lessons.
 
